@@ -17,12 +17,15 @@
     "url": "https://github.com/cashpad-pos/code-style/issues"
   },
   "homepage": "https://github.com/cashpad-pos/code-style#readme",
-  "devDependencies": {
+  "dependencies": {
     "@typescript-eslint/eslint-plugin": "^5.26.0",
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-sonarjs": "^0.13.0"
+  },
+  "peerDependencies": {
+    "typescript": "^4.7.2"
   }
 }
