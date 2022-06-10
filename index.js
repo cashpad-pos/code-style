@@ -47,9 +47,10 @@ module.exports = {
       "error",
       {
         "multiline": true,
-        "consistent": true
+        "consistent": true,
       }
     ],
+    "eol-last": "error",
     "max-len": [
       "error",
       {
