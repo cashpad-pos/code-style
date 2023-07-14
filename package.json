@@ -22,8 +22,11 @@
     "@typescript-eslint/parser": "^5.26.0",
     "eslint": "^8.16.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-import": "^2.26.0",
-    "eslint-plugin-sonarjs": "^0.13.0"
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-sonarjs": "^0.13.0",
+    "prettier": "^3.0.0"
   },
   "peerDependencies": {
     "typescript": "^4.7.2"
