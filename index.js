@@ -25,6 +25,13 @@ module.exports = {
     "plugin:sonarjs/recommended"
   ],
   "rules": {
+    "key-spacing": [
+      "error",
+      {
+        "beforeColon": false, 
+        "afterColon": true,
+      },
+    ],
     "import/order": ["warn", {
         "newlines-between": "always",
         "groups": [["external", "builtin"]],
