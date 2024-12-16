@@ -1,0 +1,12 @@
+dist
+node_modules
+.vscode
+sequelize
+eslint.config.mjs
+README.md
+docker-compose.yml
+.prettierrc
+.github
+.eslintrc.json
+tsconfig.json
+tsconfig.test.json
