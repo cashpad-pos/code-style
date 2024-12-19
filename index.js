@@ -15,7 +15,7 @@ const baseESlintConfig = tseslint.config(
     globals: {
       ...globals.node,
       ...globals.mocha,
-      ...globals.commonjs,
+      ...globals.es2020,
     },
   }},
   {
